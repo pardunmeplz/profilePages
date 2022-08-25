@@ -1,8 +1,8 @@
 import react from "react"
 import { View, Text } from "react-native"
-import styles from "./OneStyle"
+import styles from "./FiveStyle"
 
-export default function One() {
+export default function Five() {
     return <View style={styles.container}>
         <View style={{ flex: 0.4, justifyContent: 'center', alignItems: 'center' }}>
             <Text style={styles.title}>Profile</Text>
